@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('pull') {
             steps {
-                git branch: 'master', url: 'https://github.com/iamtruptimane/pythonapp.git'
+                git branch: 'master', url: 'https://github.com/iamtruptimane/student-app.git'
             }
         }
          stage('build') {
